@@ -12,13 +12,9 @@ import threading
 import select
 import traceback
 import time
-
 import Queue
 from Crypto.Cipher import AES
-
-
 from emotiv_data_packet import EmotivDataPacket, counter_to_sensor_id
-
 
 class EmotivDevice:
 
@@ -89,4 +85,5 @@ class EmotivDevice:
             if f is not None:
                 f.close()
                 
-           
+device = new EmotiveDevice()
+device.start_reader()
