@@ -1,4 +1,6 @@
 
+This is the code for [this](https://www.youtube.com/watch?v=5YxzWnbqaJI&feature=youtu.be) video on Youtube by Siraj Raval. This is a Python library meant to work with the [Emotiv](https://www.emotiv.com/epoc/) headset. 
+
 <img src="http://cymaticorp.com/edu/cykit4.png" width=25% height=25% ><br>
 CyKit 1.0 for Python 2.7.6 (Windows x86) using Emotiv EPOC headset.<br><br>
 FAQ<br>
